@@ -15,4 +15,4 @@ from docopt import docopt
 opt = docopt(__doc__)
 print(opt)
 print(type(opt))
-print(arg4)
+print(opt["arg4"])
